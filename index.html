@@ -59,13 +59,13 @@
     </main>
     <section>
         <div class="mt-5 p-5">
-            <div class="card mb-3" style="max-width: 50%">
+            <div class="card mb-1" style="max-width: 100%">
                 <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="https://miro.medium.com/max/700/1*OnH_DlbNAPvB9KLxUCyMsA.png"
+                    <div class="col-md-5">
+                        <img src="https://blog.openreplay.com/static/f0ba2fc2b1ef4686c57e97706d7189e3/8537d/e17fb4d8c34e48bdadf986cd355c40e4.png"
                             class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7 p-5">
                         <div class="card-body">
                             <h5 class="card-title">How JavaScript works?</h5>
                             <p class="card-text">As we know JavaScript is an interpreted programming language which
@@ -73,9 +73,33 @@
                                 the browser, the JavaScript engine will execute each line of the file from top to
                                 bottom. It is a single-threaded programming language, which means it has a single Call
                                 Stack and it can do one thing at a time. basically, JavaScript runs inside an
-                                environment called JavaScript Runtime Environment along with many other components..</p>
+                                environment called JavaScript Runtime Environment along with many other components. Here
+                                JavaScript Engine consists of two main components like Memory Heap ( this is where the
+                                memory allocation happens) and Call Stack (this is where your stack frames are as your
+                                code executes). If we want to execute heavy code without blocking the UI we have a
+                                solution like asynchronous callbacks in JavaScript.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-md-7 p-5">
+                        <div class="card-body">
+                            <h5 class="card-title">Difference Between Local Storage and Session Storage</h5>
+                            <p class="card-text">In The localStorage and sessionStorage, there is one major difference
+                                between is the expiration date.
+                                basically, localStorage persists the storage across browser sessions. So even if the
+                                browser is opened in a new tab, or the browser is closed and reopened, the storage is
+                                saved, there is no expiration. on the other side, sessionStorage is cleared when the
+                                page session ends.
+                                For the local storage and session storage, we can set, get, remove, and clear items
+                                using the appropriate methods like setItem(),getItem(),removeItem(),clear() etc.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="https://westerncloud.co.za/_nuxt/assets/hero-cloud-hosting.29ad167e.svg"
+                            class="img-fluid rounded-start" alt="...">
                     </div>
                 </div>
             </div>
